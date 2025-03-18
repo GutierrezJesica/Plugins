@@ -7,15 +7,25 @@
     <title>Programita de gastos mensuales</title>
 </head>
 <body>
-    <h1>Programita de gastos mensuales</h1>
-    <br>
-    <div id="gastos">
-        <input type="number" name="Gastos" id="gastos" placeholder="Ingrese el monto">
-    <br>
+    <div class="box">
+        <h1>Programita de gastos mensuales</h1>
+        <br>
+            <div class="contenedor">
+                <div id="gastos" class="column-1">
+                    <label for="gastos">Gasto</label>
+                    <br>
+                    <input type="number" name="Gastos" id="gastos" placeholder="$">
+                    <br>
+                    <button>Enviar</button>
+                </div>
+                <div id="ingresos" class="column-2">
+                    <label for="ingresos">Ingreso</label>
+                    <br>
+                    <input type="number" name="Ingresos" id="ingresos" placeholder="$">
+                    <br>
+                    <button>Enviar</button>
+                </div>
+            </div>
     </div>
-        <input type="number" name="Ingresos" id="ingresos" placeholder="Ingrese el monto">
-    <br>
-    <div id="ingresos">
-    <button>Enviar</button>
 </body>
 </html>
