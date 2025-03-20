@@ -10,6 +10,8 @@
     <div class="box">
         <div class ="fecha">
             <p><?php include("funciones.php");
+                echo $hora; ?></p>
+            <p><?php
                 echo $dia_actual . " " . $fecha_actual; ?></p>
         </div>
         <h1>Programita de gastos mensuales</h1>
