@@ -16,18 +16,12 @@
         <br>
             <div class="contenedor">
                 <div id="gastos" class="column-1">
-                    <label for="gastos">Gasto</label>
+                    <input type="number" name="Monto" id="monto" placeholder="Ingrese un monto">
                     <br>
-                    <input type="number" name="Gastos" id="gastos" placeholder="$">
-                    <br>
-                    <button>Enviar</button>
+                    <button>Aceptar</button>
                 </div>
                 <div id="ingresos" class="column-2">
-                    <label for="ingresos">Ingreso</label>
-                    <br>
-                    <input type="number" name="Ingresos" id="ingresos" placeholder="$">
-                    <br>
-                    <button>Enviar</button>
+                    
                 </div>
             </div>
     </div>
