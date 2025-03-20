@@ -12,7 +12,7 @@
             <p><?php include("funciones.php");
                 echo $hora; ?></p>
             <p><?php
-                echo $dia_actual . " " . $fecha_actual; ?></p>
+                echo dia_semana() . "  " . $fecha_actual; ?></p>
         </div>
         <h1>Programita de gastos mensuales</h1>
         <br>
